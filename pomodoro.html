@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pomodoro Clock</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="pomodoro.css">
+	<link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+	<script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="pomodoro.js"></script> 
+</head>
+<body>
+<audio id="alarm">
+  <source src="http://www.freesfx.co.uk/rx2/mp3s/4/16412_1460641277.mp3" type="audio/mp3">
+</audio>
+
+<div class="container-fluid">
+<div id="main">
+<h1>Pomodoro Clock</h1>
+<h3>FreeCodeCamp</h3>
+ <div id="main-area">
+   <div id="control-panel" class="row">
+     <div class="col-xs-4">
+       <label>Break Length</br>
+   <span id="break" class="time-control"><button class="btn btn-default" id="break-less">-</button><span id="break-length">5</span><button id="break-more" class="btn btn-default">+</button></span></label></div><div class="col-xs-4">
+   <label>Session Length</br>
+   <span id="session" class="time-control"><button id="session-less" class="btn btn-default">-</button><span id="session-length">25</span><button id="session-more" class="btn btn-default">+</button></span></label></div>
+  </br>
+    <button class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Click to start or pause"  id="play-pause"><i class="fas fa-play"></i> <i class="fas fa-pause"></i></button>
+    <button class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Click to reset defaults"id="reset"><i class="fas fa-redo-alt"></i></button>
+   </div></div>
+  <div id="clock-area">
+    <h2><span id="time-remaining"><span id="minutes">25</span>:<span id="seconds">00</span></span></h2>
+  </div>
+<div id="break-or-work"><h3>Work Time!</h3></div>
+</div>
+</div>
+<p>Created and coded by <a href="http://codepen.io/veewren" target="_blank">V.Wren</a></p>
+</body>
+</html>

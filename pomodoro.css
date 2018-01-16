@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Passion+One|Roboto+Mono');
+
+body {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  background: #E3DCC2;
+  color: #1B2021;
+}
+#main {
+  background-color: #94D838;
+  max-width: 500px;
+  margin: 3rem auto;
+  border-radius: 10px;
+  padding: 20px 6px 20px 6px;
+  text-align: center;
+}
+
+#control-panel {
+  margin: 40px auto;
+}
+
+#break-or-work {
+  visibility: hidden;
+}
+.time-control {
+  margin: 10px;
+}
+
+button {
+  margin: 4px;
+  font-size: 1.3rem !important;  
+}
+
+h1 {
+  font-family: 'Passion One', cursive;
+  font-size: 5rem;
+  line-height: .8rem;
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  
+  font-size: 2.5rem;
+}
+
+#clock-area {
+  max-width: 300px;
+  margin: 4rem auto 2rem auto;
+  border: 1px solid #1B2021;
+  border-radius: 5px;
+}
+
+#clock-area h2 {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 2rem;
